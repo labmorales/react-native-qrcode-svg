@@ -43,13 +43,12 @@
   "homepage": "https://github.com/awesomejerry/react-native-qrcode-svg#readme",
   "peerDependencies": {
     "react-native": ">=0.63.4",
-    "react": "*"
-    
+    "react": "*",
+    "react-native-svg": "github:labmorales/react-native-svg#fix/box_none_overlap"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
-    "qrcode": "^1.5.0",
-    "react-native-svg": "github:labmorales/react-native-svg#fix/box_none_overlap"
+    "qrcode": "^1.5.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
